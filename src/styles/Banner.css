@@ -1,0 +1,18 @@
+.banner {
+    border-radius: 25px;
+    filter: brightness(70%);
+    width: 100%;
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    position: absolute;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}

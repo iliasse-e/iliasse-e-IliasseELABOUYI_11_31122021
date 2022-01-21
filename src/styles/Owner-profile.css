@@ -1,0 +1,19 @@
+#profile__header {
+    display: flex;
+}
+
+#profile {
+    align-self: flex-end;
+}
+
+#owner-name {
+    text-align: end;
+    padding-right: 15px;
+    margin-top: 5px;
+}
+
+#owner-profile-picture {
+    border-radius: 80px;
+    width: 90px;
+    height: 90px;
+}

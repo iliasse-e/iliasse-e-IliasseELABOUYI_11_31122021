@@ -1,0 +1,43 @@
+.flat-page__gallery {
+    display: flex;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 400px;
+    width: 92%;
+}
+
+.flat-page__gallery:hover {
+    /*transform: translateX(-100%);
+    transition: ease-in-out 300ms;
+*/}
+
+.flat-page__gallery__prev {
+    height: 100px;
+    width: 75px;
+    border: none;
+    position: absolute;
+    top: 35%;
+    left: 17%;
+}
+
+.flat-page__gallery__next {
+    height: 100px;
+    width: 75px;
+    border: none;
+    position: absolute;
+    top: 35%;
+    right: 23%;
+}
+
+.flat-page__gallery__prev:hover, .flat-page__gallery__next:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.flat-page__gallery__img {
+    
+}

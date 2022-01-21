@@ -1,0 +1,31 @@
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding : 40px 0 ;
+}
+
+#nav {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+#nav * {
+    color: var(--primary);
+}
+
+#nav *:hover {
+    text-decoration: underline;
+}
+
+#nav a:not(.active) {
+    text-decoration:none;
+}
